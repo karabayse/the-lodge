@@ -165,6 +165,70 @@ hr {
 
 
 
+/**** EAT ****/
+
+.eat-header {
+  min-height: 700px;
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.05),
+      rgba(0, 0, 0, 0.05)
+    ),
+  url("../styles/images/eat/restaurant-kitchen.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.eat-text {
+  width: 100%;
+  text-align: center;
+  color: White;
+  font-size: 50px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  padding: 300px;
+}
+
+.eat-text .border {
+  color: White;
+  padding: 20px;
+}
+
+#wood-plate {
+  background-image: url("/styles/images/eat/wood-plate.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 600px;
+  height: 600px;
+  width: 600px;
+}
+
+#eat-text-2 {
+  /* color: #556B2F; */
+}
+
+#lodge-breakfast {
+  background-image: url("/styles/images/eat/lodge-breakfast.jpg");/
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 300px;
+  height: 300px;
+  width: 300px;
+}
+
+#drink {
+  background-image: url("/styles/images/eat/drink.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 300px;
+  height: 300px;
+  width: 300px;
+}
+
+
+
+
 /**** SLEEP ****/
 
 .sleep-header {
