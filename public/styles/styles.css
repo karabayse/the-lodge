@@ -10,6 +10,12 @@
 
 /**** SITE ****/
 
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css");
+
+/* @import url("//netdna.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"); */
+
+/* @import url("//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"); */
+
 .nav {
   position: fixed;
   top: 0;
@@ -40,7 +46,7 @@ header {
       rgba(0, 0, 0, 0.05),
       rgba(0, 0, 0, 0.05)
     ),
-  url("../styles/images/mountain-lake.jpg") no-repeat center center fixed;
+  url("../styles/images/home/mountain-lake.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -64,7 +70,7 @@ header {
 }
 
 #lodge-1 {
-  background-image: url("/styles/images/lodge-1.jpg");
+  background-image: url("/styles/images/home/lodge-1.jpg");
   background-position: center;
   background-size: 600px;
   height: 600px;
@@ -72,7 +78,120 @@ header {
 }
 
 #lodge-1-text {
-  color: #8E8E38;
+  /* color: #8E8E38; */
+  /* color: #006400; */
+  color: #556B2F;
+  font-family: monospace;
+}
+
+#mountain-view {
+  background-image: url("/styles/images/home/mountain-view.jpg");
+  background-position: center;
+  background-size: 600px;
+  height: 600px;
+  width: 600px;
+}
+
+#mountain-view-text {
+  /* color: #8E8E38; */
+  /* color: #006400; */
+  color: #556B2F;
+  font-family: monospace;
+}
+
+#deer {
+  background-image: url("/styles/images/home/deer.jpg");/
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 300px;
+  height: 300px;
+  width: 300px;
+}
+
+#fox {
+  background-image: url("/styles/images/home/fox.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 300px;
+  height: 300px;
+  width: 300px;
+}
+
+#hoarfrost {
+  background-image: url("/styles/images/home/hoarfrost.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 300px;
+  height: 300px;
+  width: 300px;
+}
+
+#mountainCaption {
+  background-color: white;
+  color: black;
+  display: block;
+  font-family: monospace;
+  font-size: 14px;
+  font-style: italic;
+  line-height: 14px;
+  margin-left: 20px;
+  padding: 10px;
+  position: relative;
+  top: 90%;
+  width: 60%;
+  opacity: 0.50;
+}
+
+#deerCaption {
+  background-color: white;
+  color: black;
+  display: block;
+    font-family: monospace;
+  font-size: 14px;
+  font-style: italic;
+  line-height: 14px;
+  margin-left: 20px;
+  padding: 10px;
+  position: relative;
+  top: 50%;
+  width: 60%;
+  opacity: 0.50;
+}
+
+#foxCaption {
+  background-color: white;
+  color: black;
+  display: block;
+  font-family: monospace;
+  font-size: 14px;
+  font-style: italic;
+  line-height: 14px;
+  margin-left: 20px;
+  padding: 10px;
+  position: relative;
+  top: 67%;
+  width: 60%;
+  opacity: 0.50;
+}
+
+#hoarfrostCaption {
+  background-color: white;
+  color: black;
+  display: block;
+  font-family: 'Playfair Display', serif;
+  font-size: 14px;
+  font-style: italic;
+  line-height: 14px;
+  margin-left: 20px;
+  padding: 10px;
+  position: relative;
+  top: 55%;
+  width: 60%;
+  opacity: 0.50;
+}
+
+hr {
+  border-color: #8B7500;
 }
 
 footer {

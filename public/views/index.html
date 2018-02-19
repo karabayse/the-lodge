@@ -3,22 +3,25 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="vendors/bootstrap.min.css">
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
+    <!-- <link href="//netdna.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"> -->
+    <!-- <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"> -->
     <link rel="stylesheet" href="styles/styles.css">
     <title>The Lodge</title>
   </head>
   <body>
 
     <header class="header">
-      <nav class="navbar navbar-default navbar-fixed-top">
+      <nav class="navbar navbar-fixed-top">
         <div class="container-fluid">
-          <div class="navbar-header">
-            <a class="navbar-brand" href="#">Berries</a>
-        </div>
+          <!-- <div class="navbar-header">
+            <a class="navbar-brand" href="#">The Lodge</a>
+        </div> -->
           <ul class="nav navbar-nav">
-            <li><a href="#home">HOME</a></li>
-            <li><a href="#eat">EAT</a></li>
-            <li><a href="#sleep">SLEEP</a></li>
-            <li><a href="#play">PLAY</a></li>
+            <li><a href="#home">HOME <span class="glyphicon glyphicon-home"></span></a></li>
+            <li><a href="#eat">EAT <span class="glyphicon glyphicon-cutlery"></span></a></li>
+            <li><a href="#sleep">SLEEP <span class="glyphicon glyphicon-eye-close"></span></a></li>
+            <li><a href="#play">PLAY <span class="glyphicon glyphicon-tree-conifer"></span></a></li>
           </ul>
         </div>
       </nav>
@@ -42,25 +45,67 @@
         <div class="col-sm-6" id="lodge-1-text">
           <br>
           <br>
-          <h2>Welcome to The Lodge</h2>
-          <p>Eat, sleep, play</p>
-          <p>Plan your stay</p>
+          <h1>Welcome to The Lodge</h1>
+          <p>
+            Here at The Lodge, we provide fine dining, two different
+            lodging types, and ample opportunities to explore the mountain life
+            for which the community is known.
+          </p>
+          <p>
+            Eat breakfast, lunch, dinner, or enjoy a hand-crafted cocktail at
+            our world-class restaurant.
+          </p>
+          <p>
+            Sleep in the main lodge or one of our A-frame homes with views of the
+            Setetchwa Mountains.
+          </p>
+          <p>
+            Play in the great outdoors.  Hike existing trails (or blaze your
+            own), fish, swim, and enjoy an outdoor campfire.
+          </p>
         </div>
-      </div>
-
-
-      <div class="row">
-
       </div>
     <!-- end div class row -->
 
+    <br>
+    <hr align="center" width="100%">
+    <br>
+
+    <div class="row">
+      <div class=col-sm-6 id="mountain-view">
+      <p id="mountainCaption">Setetchwa Mountains</p>
+
+      </div>
+      <div class="col-sm-6" id="mountain-view-text">
+        <h3>Enjoy the natural beauty surrounding The Lodge</h3>
+        <br>
+        <div class="col-sm-4">
+          <div id="deer">
+            <p id="deerCaption">Mountain Deer</p>
+          </div>
+            <div id="fox">
+              <p id="foxCaption">Land Fox</p>
+            </div>
+        </div>
+        </div>
+      </div>
+
+      <!-- <div class="row">
+          <div id="hoarfrost">
+            <p id="hoarfrostCaption">Winter Hoarfrost</p>
+          </div>
+      </div> -->
+      <!-- end div class row -->
+
+      <br>
       <hr align="center" width="100%">
+      <br>
 
     </div>
     <!-- end container -->
 
     <footer>
-      &copy The Lodge
+      &copy The Lodge 2018
     </footer>
 
   </body>
