@@ -74,3 +74,12 @@ header {
 #lodge-1-text {
   color: #8E8E38;
 }
+
+footer {
+  text-align: center;
+  color: white;
+  background-color: black;
+  height: 100px;
+  margin-top: 20px;
+  padding-top: 20px;
+}

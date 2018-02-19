@@ -1,5 +1,5 @@
 ![The Lodge Home Page](the-lodge-home.png)
 
-## The lodge
+## The Lodge
 
 Resort proof of concept
