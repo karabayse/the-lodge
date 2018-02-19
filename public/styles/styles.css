@@ -8,7 +8,7 @@
 
 
 
-/**** SITE ****/
+/**** HOME ****/
 
 @import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css");
 
@@ -78,10 +78,7 @@ header {
 }
 
 #lodge-1-text {
-  /* color: #8E8E38; */
-  /* color: #006400; */
-  color: #556B2F;
-  font-family: monospace;
+  /* color: #556B2F; */
 }
 
 #mountain-view {
@@ -93,10 +90,7 @@ header {
 }
 
 #mountain-view-text {
-  /* color: #8E8E38; */
-  /* color: #006400; */
-  color: #556B2F;
-  font-family: monospace;
+  /* color: #556B2F; */
 }
 
 #deer {
@@ -110,15 +104,6 @@ header {
 
 #fox {
   background-image: url("/styles/images/home/fox.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 300px;
-  height: 300px;
-  width: 300px;
-}
-
-#hoarfrost {
-  background-image: url("/styles/images/home/hoarfrost.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 300px;
@@ -146,7 +131,7 @@ header {
   background-color: white;
   color: black;
   display: block;
-    font-family: monospace;
+  font-family: monospace;
   font-size: 14px;
   font-style: italic;
   line-height: 14px;
@@ -174,25 +159,137 @@ header {
   opacity: 0.50;
 }
 
-#hoarfrostCaption {
-  background-color: white;
-  color: black;
-  display: block;
-  font-family: 'Playfair Display', serif;
-  font-size: 14px;
-  font-style: italic;
-  line-height: 14px;
-  margin-left: 20px;
-  padding: 10px;
-  position: relative;
-  top: 55%;
-  width: 60%;
-  opacity: 0.50;
-}
-
 hr {
   border-color: #8B7500;
 }
+
+
+
+/**** SLEEP ****/
+
+.sleep-header {
+  min-height: 700px;
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.05),
+      rgba(0, 0, 0, 0.05)
+    ),
+  url("../styles/images/sleep/deck-view.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.sleep-text {
+  width: 100%;
+  text-align: center;
+  color: White;
+  font-size: 50px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  padding: 300px;
+}
+
+.sleep-text .border {
+  color: White;
+  padding: 20px;
+}
+
+#lodge-interior {
+  background-image: url("/styles/images/sleep/lodge-interior.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 600px;
+  height: 600px;
+  width: 600px;
+}
+
+#sleep-text-2 {
+  /* color: #556B2F; */
+}
+
+#a-frame {
+  background-image: url("/styles/images/sleep/a-frame-1.jpg");/
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 300px;
+  height: 300px;
+  width: 300px;
+}
+
+#laptop-antler {
+  background-image: url("/styles/images/sleep/laptop-antler.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 300px;
+  height: 300px;
+  width: 300px;
+}
+
+
+
+/**** PLAY ****/
+
+.play-header {
+  min-height: 700px;
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.05),
+      rgba(0, 0, 0, 0.05)
+    ),
+  url("../styles/images/play/hoarfrost.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.play-text {
+  width: 100%;
+  text-align: center;
+  color: White;
+  font-size: 50px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  padding: 300px;
+}
+
+.play-text .border {
+  color: White;
+  padding: 20px;
+}
+
+#logs {
+  background-image: url("/styles/images/play/logs.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 600px;
+  height: 600px;
+  width: 600px;
+}
+
+#play-text-2 {
+  /* color: #556B2F; */
+}
+
+#fishing {
+  background-image: url("/styles/images/play/fishing.jpg");/
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 300px;
+  height: 300px;
+  width: 300px;
+}
+
+#lake-swimming {
+  background-image: url("/styles/images/play/lake-swimming.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 300px;
+  height: 300px;
+  width: 300px;
+}
+
+/**** FOOTER ****/
 
 footer {
   text-align: center;
