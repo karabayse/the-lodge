@@ -1,4 +1,4 @@
-![The Lodge Home Page](the-lodge-HOME.png)
+![The Lodge Home Page](the-lodge-home.png)
 
 ## The lodge
 
