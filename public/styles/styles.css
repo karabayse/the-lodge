@@ -62,3 +62,15 @@ header {
   color: White;
   padding: 20px;
 }
+
+#lodge-1 {
+  background-image: url("/styles/images/lodge-1.jpg");
+  background-position: center;
+  background-size: 600px;
+  height: 600px;
+  width: 600px;
+}
+
+#lodge-1-text {
+  color: #8E8E38;
+}
