@@ -3,10 +3,11 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="vendors/bootstrap.min.css">
+    <link rel="stylesheet" href="vendors/bootstrap.min.js">
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
-    <!-- <link href="//netdna.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"> -->
-    <!-- <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"> -->
     <link rel="stylesheet" href="styles/styles.css">
+    <script src="vendors/jquery.min.js" charset="utf-8"></script>
+    <script src="vendors/jquery.smooth-scroll.min.js" charset="utf-8"></script>
     <title>The Lodge</title>
   </head>
   <body>
@@ -14,14 +15,11 @@
     <header class="header">
       <nav class="navbar navbar-fixed-top">
         <div class="container-fluid">
-          <!-- <div class="navbar-header">
-            <a class="navbar-brand" href="#">The Lodge</a>
-        </div> -->
           <ul class="nav navbar-nav">
-            <li><a href="#home">HOME <span class="glyphicon glyphicon-home"></span></a></li>
-            <li><a href="#eat">EAT <span class="glyphicon glyphicon-cutlery"></span></a></li>
-            <li><a href="#sleep">SLEEP <span class="glyphicon glyphicon-eye-close"></span></a></li>
-            <li><a href="#play">PLAY <span class="glyphicon glyphicon-tree-conifer"></span></a></li>
+            <li class="navLinks"><a href="#home" class="nav-a">Home <span class="glyphicon glyphicon-home"></span></a></li>
+            <li class="navLinks"><a href="#eat" class="nav-a">Eat <span class="glyphicon glyphicon-cutlery"></span></a></li>
+            <li class="navLinks"><a href="#sleep" class="nav-a">Sleep <span class="glyphicon glyphicon-eye-close"></span></a></li>
+            <li class="navLinks"><a href="#play" class="nav-a">Play <span class="glyphicon glyphicon-tree-conifer"></span></a></li>
           </ul>
         </div>
       </nav>
@@ -30,6 +28,25 @@
           The Lodge
         </span>
       </div>
+
+      <div class="bird-container-main">
+        <div class="bird-container bird-container--one">
+          <div class="bird bird--one"></div>
+        </div>
+
+        <div class="bird-container bird-container--two">
+          <div class="bird bird--two"></div>
+        </div>
+
+        <div class="bird-container bird-container--three">
+          <div class="bird bird--three"></div>
+        </div>
+
+        <div class="bird-container bird-container--four">
+          <div class="bird bird--four"></div>
+        </div>
+      </div>
+
     </header>
 
     <br>
@@ -76,15 +93,15 @@
 
       </div>
       <div class="col-sm-6" id="mountain-view-text">
-        <h3>Enjoy the natural beauty surrounding The Lodge</h3>
+        <h2>Enjoy the natural beauty surrounding The Lodge <span class="glyphicon glyphicon-tree-conifer"></span></h2>
         <br>
         <div class="col-sm-4">
           <div id="deer">
             <p id="deerCaption">Mountain Deer</p>
           </div>
-            <div id="fox">
-              <p id="foxCaption">Land Fox</p>
-            </div>
+          <div id="fox">
+            <p id="foxCaption">Land Fox</p>
+          </div>
         </div>
         </div>
       </div>
@@ -114,21 +131,18 @@
       <div class="row">
         <div class=col-sm-6 id="wood-plate">
         <p id="wood-plateCaption">  </p>
-
+        <h1>Breakfast, Lunch, Dinner, Cocktails <span class="glyphicon glyphicon-cutlery"></span></h1>
+        <br>
         </div>
+        <!-- end row  -->
         <div class="col-sm-6" id="eat-text-2">
-          <h3>Breakfast, Lunch, Dinner, Cocktails</h3>
-          <br>
           <div class="col-sm-4">
-            <div id="lodge-breakfast">
-              <p id="lodge-breakfastCaption">  </p>
-            </div>
-              <div id="drink">
-                <p id="drinkCaption">  </p>
-              </div>
-          </div>
+            <!-- <div id="dining"></div> -->
+            <div id="lodge-breakfast"></div>
+            <div id="drink"></div>
           </div>
         </div>
+      </div>
 
         <br>
         <hr align="center" width="100%">
@@ -153,12 +167,14 @@
       <br>
 
       <div class="row">
-        <div class=col-sm-6 id="lodge-interior">
-        <p id="lodge-interiorCaption">  </p>
+        <div class=col-sm-6 id="lodge-interior"></div>
 
-        </div>
         <div class="col-sm-6" id="sleep-text-2">
-          <h3>Rest, Relax, Sleep</h3>
+          <h3>
+            Whether in the main lodge or an A-frame cottage, kick back, relax,
+            and take in the view of the Setetchwa Mountains before settling in
+            for a peaceful sleep.
+          </h3>
           <br>
           <div class="col-sm-4">
             <div id="a-frame">
@@ -193,31 +209,83 @@
       <br>
       <br>
 
-      <div class="row">
-        <div class=col-sm-6 id="logs">
-        <p id="logsCaption">  </p>
+      <!-- **** CAROUSEL **** -->
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li>
+    <li data-target="#myCarousel" data-slide-to="4"></li>
+  </ol>
 
-        </div>
-        <div class="col-sm-6" id="play-text-2">
-          <h3>Hike, Fish, Swim</h3>
-          <br>
-          <div class="col-sm-4">
-            <div id="fishing">
-              <p id="fishingCaption">  </p>
-            </div>
-              <div id="lake-swimming">
-                <p id="lake-swimmingCaption">  </p>
-              </div>
-          </div>
-          </div>
-        </div>
+  <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+      <img src="styles/images/play/fishing.jpg" alt="fishing" class="img-responsive">
+      <div class="carousel-caption">
+        <h3>FISH</h3>
+        <p>Catch something big in Setetchwa Lake</p>
+      </div>
+    </div>
 
-        <br>
-        <hr align="center" width="100%">
-        <br>
+    <!-- <div class="item">
+        <img src="styles/images/play/lake-swimming.jpg" alt="Swimming" class="img-responsive">
+        <div class="carousel-caption">
+          <h3>SWIM</h3>
+          <p>Swim the fresh waters of Setetchwa Lake</p>
+      </div>
+    </div>
+
+    <div class="item">
+        <img src="styles/images/play/logs.jpeg" alt="Logs" class="img-responsive">
+        <div class="carousel-caption">
+          <h3>FIREWOOD</h3>
+          <p>Firewood provided upon request</p>
+        </div>
+      </div>
+
+    <div class="item">
+        <img src="styles/images/play/outdoor-fire.jpg" alt="Fire" class="img-responsive">
+        <div class="carousel-caption">
+          <h3>OUTDOOR Fire</h3>
+          <p>Warm your hands by the campfire</p>
+      </div>
+    </div>
+
+    <div class="item">
+        <img src="styles/images/play/outdoor-cooking.jpg" alt="Outdoor Cooking" class="img-responsive">
+        <div class="carousel-caption">
+          <h3>HOT CIDER</h3>
+          <p>Enjoy hot cider made from local Setetchwa apples</p>
+      </div>
+    </div> -->
+  </div>
+  <!-- end carousel-inner  -->
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <!-- <span class="glyphicon glyphicon-chevron-left"></span> -->
+    <span class="icon-prev"></span>
+    <span class="sr-only">previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <!-- <span class="glyphicon glyphicon-chevron-right"></span> -->
+    <span class="icon-next"></span>
+    <span class="sr-only">next</span>
+  </a>
+</div>
+<!-- end myCarousel  -->
+<!-- FOR BOOTSTRAP CAROUSEL -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+      <br>
+      <hr align="center" width="100%">
+      <br>
     </div>
     <!-- end PLAY container  -->
-
 
 
     <footer>
