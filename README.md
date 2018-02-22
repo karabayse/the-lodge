@@ -4,7 +4,7 @@
 Resort proof of concept
 
 ### Image Acknowledgments
-* HOME:  Lodge photo by Clarisse Meyer on Unsplash
+* HOME:  Lodge photo by Ian Keefe on Unsplash
 * EAT:  Restaurant Kitchen photo by Michael Browning on Unsplash,
 Plated Food photo by Jimi Filipovski on Unsplash, Breakfast photo by Aldyth
 Moyla on Unsplash, Drink photo by Adam Jaime on Unsplash

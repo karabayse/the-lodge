@@ -11,8 +11,12 @@
 /**** SITE ****/
 
 .btn {
-  color: #8B7500;
-  border-color: #8B7500;
+  /* color: #8B7500; */
+  color: #9AC0CD;
+  font-weight: bold;
+  /* border-color: #8B7500; */
+  border-color: #9AC0CD;
+  border-width: thick;
   min-width: 250px;
 }
 
@@ -233,7 +237,7 @@ header {
 }
 
 #lodge-1 {
-  background-image: url("/styles/images/home/lodge-1.jpg");
+  background-image: url("/styles/images/home/lodge-2.jpg");
   background-position: center;
   background-size: 600px;
   height: 600px;
