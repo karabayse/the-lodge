@@ -14,11 +14,7 @@
 
 /**** HOME ****/
 
-@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css");
-
-/* @import url("//netdna.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"); */
-
-/* @import url("//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"); */
+/* @import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"); */
 
 *,
 *::before,
@@ -369,15 +365,6 @@ hr {
   /* color: #556B2F; */
 }
 
-/* #dining {
-  background-image: url("/styles/images/eat/dining.jpg");/
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 300px;
-  height: 300px;
-  width: 300px;
-} */
-
 #lodge-breakfast {
   background-image: url("/styles/images/eat/lodge-breakfast.jpg");/
   background-position: center;
@@ -492,7 +479,7 @@ hr {
   padding: 20px;
 }
 
-#logs {
+/* #logs {
   background-image: url("/styles/images/play/logs.jpeg");
   background-position: center;
   background-repeat: no-repeat;
@@ -526,7 +513,7 @@ hr {
   background-size: 300px;
   height: 300px;
   width: 300px;
-}
+} */
 
 .carousel img {
   width: 1200px;
