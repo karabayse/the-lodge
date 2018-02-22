@@ -3,8 +3,6 @@ var express = require('express');
 var app = express();
 var path = require('path');
 var bodyParser = require('body-parser');
-var moment = require('moment');
-var fullcalendar = require('fullcalendar');
 
 // uses
 app.use(express.static('public'));
