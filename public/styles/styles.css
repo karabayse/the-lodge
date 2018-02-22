@@ -10,6 +10,12 @@
 
 /**** SITE ****/
 
+.btn {
+  color: #8B7500;
+  border-color: #8B7500;
+  min-width: 250px;
+}
+
 
 
 /**** HOME ****/
@@ -383,7 +389,15 @@ hr {
   width: 300px;
 }
 
+#eat-button {
+  min-width: 250px;
+}
 
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 
 /**** SLEEP ****/
@@ -445,6 +459,12 @@ hr {
   background-size: 300px;
   height: 300px;
   width: 300px;
+}
+
+.check-availability {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 
@@ -520,6 +540,12 @@ hr {
   height: 600px;
   max-height: 600px;
   min-height: 600px;
+}
+
+.activities-calendar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 
