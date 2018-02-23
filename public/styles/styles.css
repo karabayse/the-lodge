@@ -11,10 +11,12 @@
 /**** SITE ****/
 
 .btn {
-  color: #528B8B;
+  /* color: #528B8B; */
+  color: Black;
   font-weight: bold;
-  border-color: #528B8B;
-  border-width: thick;
+  /* border-color: #528B8B; */
+  border-color: Black;
+  /* border-width: thick; */
   min-width: 250px;
 }
 
