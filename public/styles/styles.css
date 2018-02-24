@@ -236,7 +236,7 @@ header {
   padding: 20px;
 }
 
-#lodge-1 {
+#lodge-2 {
   background-image: url("/styles/images/home/lodge-2.jpg");
   background-position: center;
   background-size: 600px;
@@ -244,8 +244,12 @@ header {
   width: 600px;
 }
 
-#lodge-1-text {
+#lodge-2-text {
   text-align: justify;
+}
+
+#quote {
+  font-style: italic;
 }
 
 #mountain-view {
@@ -305,7 +309,7 @@ header {
   margin-left: 20px;
   padding: 10px;
   position: relative;
-  top: 50%;
+  top: 51%;
   width: 60%;
   opacity: 0.50;
 }
