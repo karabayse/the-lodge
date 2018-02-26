@@ -246,6 +246,7 @@ header {
 
 #lodge-2-text {
   text-align: justify;
+  /* font-family: Tahoma, Geneva, sans-serif; */
 }
 
 #quote {
@@ -366,8 +367,8 @@ hr {
   padding: 20px;
 }
 
-#wood-plate {
-  background-image: url("/styles/images/eat/wood-plate.jpg");
+.wood-plate {
+  /* background-image: url("/styles/images/eat/wood-plate.jpg") border-style: inset; */
   background-position: center;
   background-repeat: no-repeat;
   background-size: 600px;
@@ -375,12 +376,17 @@ hr {
   width: 600px;
 }
 
+#wood-plate-image {
+  border: solid;
+  border-color: Black;
+}
+
 #eat-text-2 {
   /* color: #556B2F; */
 }
 
-#lodge-breakfast {
-  background-image: url("/styles/images/eat/lodge-breakfast.jpg");/
+.lodge-breakfast {
+  /* background-image: url("/styles/images/eat/lodge-breakfast.jpg");/ */
   background-position: center;
   background-repeat: no-repeat;
   background-size: 300px;
@@ -388,13 +394,23 @@ hr {
   width: 300px;
 }
 
-#drink {
-  background-image: url("/styles/images/eat/drink.jpg");
+#lodge-breakfast-image {
+  border: solid;
+  border-color: Black;
+}
+
+.drink {
+  /* background-image: url("/styles/images/eat/drink.jpg"); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: 300px;
   height: 300px;
   width: 300px;
+}
+
+#drink-image {
+  border: solid;
+  border-color: Black;
 }
 
 #eat-button {
@@ -438,8 +454,8 @@ hr {
   padding: 20px;
 }
 
-#lodge-interior {
-  background-image: url("/styles/images/sleep/lodge-interior.jpg");
+.lodge-interior {
+  /* background-image: url("/styles/images/sleep/lodge-interior.jpg"); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: 600px;
@@ -447,12 +463,17 @@ hr {
   width: 600px;
 }
 
+#lodge-interior-image {
+  /* border: solid; */
+  border-color: Black;
+}
+
 #sleep-text-2 {
   text-align: justify;
 }
 
-#a-frame {
-  background-image: url("/styles/images/sleep/a-frame-1.jpg");/
+.a-frame {
+  /* background-image: url("/styles/images/sleep/a-frame-1.jpg");/ */
   background-position: center;
   background-repeat: no-repeat;
   background-size: 300px;
@@ -460,13 +481,23 @@ hr {
   width: 300px;
 }
 
-#laptop-antler {
-  background-image: url("/styles/images/sleep/laptop-antler.jpg");
+#a-frame-image {
+  /* border: solid; */
+  border-color: Black;
+}
+
+.laptop-antler {
+  /* background-image: url("/styles/images/sleep/laptop-antler.jpg"); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: 300px;
   height: 300px;
   width: 300px;
+}
+
+#laptop-antler-image {
+  /* border: solid; */
+  border-color: Black;
 }
 
 .check-availability {
