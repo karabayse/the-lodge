@@ -11,12 +11,9 @@
 /**** SITE ****/
 
 .btn {
-  /* color: #528B8B; */
   color: Black;
   font-weight: bold;
-  /* border-color: #528B8B; */
   border-color: Black;
-  /* border-width: thick; */
   min-width: 250px;
 }
 
@@ -236,17 +233,20 @@ header {
   padding: 20px;
 }
 
-#lodge-2 {
-  background-image: url("/styles/images/home/lodge-2.jpg");
+.lodge-2 {
   background-position: center;
   background-size: 600px;
   height: 600px;
   width: 600px;
 }
 
+#lodge-2-image {
+  border-color: Black;
+}
+
 #lodge-2-text {
   text-align: justify;
-  /* font-family: Tahoma, Geneva, sans-serif; */
+  font-size: 20px;
 }
 
 #quote {
@@ -256,13 +256,14 @@ header {
 #mountain-view {
   background-image: url("/styles/images/home/mountain-view.jpg");
   background-position: center;
+  background-repeat: no-repeat;
   background-size: 600px;
   height: 600px;
   width: 600px;
 }
 
 #mountain-view-text {
-  /* color: #556B2F; */
+  font-variant: small-caps;
 }
 
 #deer {
@@ -368,49 +369,41 @@ hr {
 }
 
 .wood-plate {
-  /* background-image: url("/styles/images/eat/wood-plate.jpg") border-style: inset; */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 600px;
-  height: 600px;
-  width: 600px;
-}
-
-#wood-plate-image {
-  border: solid;
-  border-color: Black;
-}
-
-#eat-text-2 {
-  /* color: #556B2F; */
-}
-
-.lodge-breakfast {
-  /* background-image: url("/styles/images/eat/lodge-breakfast.jpg");/ */
   background-position: center;
   background-repeat: no-repeat;
   background-size: 300px;
   height: 300px;
   width: 300px;
+  font-variant: small-caps;
+}
+
+#eat-copy {
+  font-variant: small-caps;
+  text-align: center;
 }
 
 #lodge-breakfast-image {
-  border: solid;
-  border-color: Black;
-}
-
-.drink {
-  /* background-image: url("/styles/images/eat/drink.jpg"); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: 300px;
-  height: 300px;
-  width: 300px;
+  height: 250px;
+  width: 500px;
+}
+
+#wood-plate-image {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 300px;
+  height: 250px;
+  width: 450px;
 }
 
 #drink-image {
-  border: solid;
-  border-color: Black;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 300px;
+  height: 250px;
+  width: 500px;
 }
 
 #eat-button {
@@ -455,7 +448,6 @@ hr {
 }
 
 .lodge-interior {
-  /* background-image: url("/styles/images/sleep/lodge-interior.jpg"); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: 600px;
@@ -464,16 +456,15 @@ hr {
 }
 
 #lodge-interior-image {
-  /* border: solid; */
   border-color: Black;
 }
 
 #sleep-text-2 {
   text-align: justify;
+  font-variant: small-caps;
 }
 
 .a-frame {
-  /* background-image: url("/styles/images/sleep/a-frame-1.jpg");/ */
   background-position: center;
   background-repeat: no-repeat;
   background-size: 300px;
@@ -487,7 +478,6 @@ hr {
 }
 
 .laptop-antler {
-  /* background-image: url("/styles/images/sleep/laptop-antler.jpg"); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: 300px;
@@ -496,7 +486,6 @@ hr {
 }
 
 #laptop-antler-image {
-  /* border: solid; */
   border-color: Black;
 }
 
